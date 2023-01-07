@@ -1,17 +1,17 @@
 
 public class PruebaReferencia {
 	public static void main(String[] args) {
-		Cuenta primeraCuenta = new Cuenta(); // Se reserva un espacio de la memoria para ese objeto
-		primeraCuenta.saldo = 300;
+		Cuenta primeraCuenta = new Cuenta(1); // Se reserva un espacio de la memoria para ese objeto
+		primeraCuenta.depositar(300);
 		
-		Cuenta segundaCuenta = new Cuenta();
-		segundaCuenta.saldo = 100;
+		Cuenta segundaCuenta = new Cuenta(1);
+		segundaCuenta.depositar(100);
 	
-		System.out.println("Saldo de cuenta 1: " + primeraCuenta.saldo);
-		System.out.println("Saldo de cuenta 2: " + segundaCuenta.saldo);
+		System.out.println("Saldo de cuenta 1: " + primeraCuenta.getSaldo());
+		System.out.println("Saldo de cuenta 2: " + segundaCuenta.getSaldo());
 		
-		segundaCuenta.saldo += 500;
-		System.out.println("Saldo de cuenta 1: " + primeraCuenta.saldo);
+		segundaCuenta.depositar(500);
+		System.out.println("Saldo de cuenta 1: " + primeraCuenta.getSaldo());
 //		Ambos objetos apuntan a la misma dirección de la memoria
 		
 		System.out.println(primeraCuenta);
