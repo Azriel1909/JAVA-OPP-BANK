@@ -10,12 +10,12 @@ public class PruebaControlBonificacion {
 		Contador contador = new Contador();
 		contador.setSalario(5000);
 		
-//		Apllicación de Polimorfismo: la clase acepta culaquier objeto
+//		Aplicación de Polimorfismo: la clase acepta cualquier objeto
 		ControlBonificacion controlBonificacion = new ControlBonificacion();
 		controlBonificacion.registrarSalario(funcionario);
 		controlBonificacion.registrarSalario(gerente);
 		controlBonificacion.registrarSalario(contador);
-//		Resumen: Cuando tenemos el método tando en la clase padre como en la hija, llama al método más específico
+//		Resumen: Cuando tenemos el método tanto en la clase padre como en la hija, llama al método más específico
 		
 		
 	}
