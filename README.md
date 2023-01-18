@@ -12,4 +12,6 @@ Java project by Ximena Toledo
 ![](./img/img5.png)
 # UNCHECKED AND CHECKED
 ![](./img/img6.png)
+# ARRAYS
+![](./img/img7.png)
 
