@@ -14,4 +14,18 @@ Java project by Ximena Toledo
 ![](./img/img6.png)
 # ARRAYS
 ![](./img/img7.png)
+![](./img/img11.png)
+# MODIFICADORES DE ACCESO
+![](./img/img8.png)
 
+# THREAD SAFE
+![](./img/img10.png)
+
+# JAVA UTILITIES
+![](./img/img12.png)
+
+# INTERFACES
+![](./img/img13.png)
+
+# WRAPPERS
+![](./img/img14.png)
